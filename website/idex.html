@@ -1,0 +1,112 @@
+
+<html> 
+	<head>
+<link type="text/css" rel="stylesheet" href="main.css" />
+
+		<title> Videos games that i recommend to play</title> 
+		
+
+<script> 
+function banner(){ 
+var text = confirm("Boy you better click no"); 
+return text; 
+} 
+
+
+function answer(){
+	var radio =document.getElementsByName("trivia"); 
+	var selection =false;
+	var message = "";
+	for(var i = 0; i < radio.length; i++) { if(radio[i].value== "yes" && radio[i].checked == true) selection= true;{
+		}//end if statemend 	
+	}//end for loop
+	if(selection == true) { message = message + "<b><p style='color:green'> way to go!</p></b>";
+}  else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+	document.getElementById("response").innerHTML = message;
+} //end function answer
+</script>	
+	</head> 
+	<a onclick="return banner()" href="http://simplystem.com">
+	<header> This is random text that i want to to put here </header>
+</a>
+	<nav>
+<ul id="navimenu">
+
+
+<li class="navitem"> favorite character is mac </li>
+
+
+<li class="navitem"> i prefer survival mode  </li>
+
+
+<li class="navitem"> im in my fourth year of stardew </li>
+
+
+
+</ul>
+<div class="rightside">
+
+I forgot to to say there is some music that i also like such as teh band glass animals 
+
+	</div>
+	<div class="leftside">
+I also use snap chat and instagram 
+	</div>
+	<div class= "clearfloat"> </div>
+	
+	<body id ="background"> 
+		<h1> I will be adding a few video games that <span class="wrap-text">i love to play </span>and thats about it</h1>
+
+
+
+
+
+			<div class="wrap-list">
+	<ul>
+		<li class="pink"> super smash bros</li>
+		<li class="pink"> minecraft</li>
+		<li class="pink"> stardew valley</li>
+		<li class="pink"> rocket league </li> 
+		<li class="pink"> wii sports </li>
+	</ul>
+</div>
+<div class="wrap-trivia">
+		<h2> Gaming Trivia Question </h2> 
+			<p> Which game was made first </p>
+	<form>
+		<div id="response"> </div>
+			<input type="radio" name="trivia" value="yes"> minecraft
+		<br>
+			<input type="radio" name="trivia" value="no"> stardew valley
+		<br>
+			<input type="radio" name="trivia" value="no"> wii sports
+		<br> 
+			<input type="radio" name="trivia" value="no"> rocket league 
+		<br> 
+			<input type="radio" name="trivia" value="no"> super smash bros ultimate 
+		<br>
+			<input onclick="answer()" type="button" value="click here" id="button">
+
+	</form>
+</div>
+	
+	</nav>
+			<img  width="45%"src="https://thumbs.dreamstime.com/z/minecraft-editorial-vector-illustration-minecraft-editorial-vector-illustration-white-background-136940621.jpg" />
+			<img  width="45%"src="https://thumbs.dreamstime.com/z/wii-home-video-game-console-bangkok-thailand-feb-bangkok-thailand-feb-wii-home-video-game-console-produced-nintendo-109005400.jpg"/>
+		</hr>
+			<center> YA BOY SKIDDLES<a href="https://www.gamepur.com/guides/super-smash-bros-ultimate-balance-patch-13-0-0-all-buffs-and-nerfs">my recently used website</a> </center>
+			<header id="banner"> this is just a header that i made just because i wanted to</header>
+			<footer id="footer">same with this one</footer>
+			<iframe wdith="400" height="220" controls autoplay src="https://youtu.be/4RS0BaV5ibg" frameborder="0" allowfullscreen>
+			</iframe>
+			random horse sound 
+			
+<audio width="400" height="220" controls autoplay>
+<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+Your browser does not support HTML 5 audio.
+</audio>
+
+	</body>
+</html>

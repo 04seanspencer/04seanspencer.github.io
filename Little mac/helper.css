@@ -1,0 +1,57 @@
+.header{
+	color:#00cc66;
+	padding:60px;
+	font-size:36px;
+	font-family: Times,"Times New Roman", Georgia, serif;
+}
+#table{
+	width:200px; 
+	border:white; 
+	float:right; 
+	font-size:12px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color:white;
+	border:solid;
+
+}
+#image{
+	background-color:black;
+}
+.framelist{
+	border:solid;
+	padding:0.01em;
+	color:white;
+
+}
+
+
+
+
+#paragraph{
+	font-family:times,"Times New Roman", Georgia,serif;
+	font-size:24px;
+	color:white;
+}
+
+a:link{
+	color:blue;
+}
+a:visited{
+	color:#8c193B;
+}
+a:hover{
+	color: green;
+}
+#background{
+	background-image: url(https://ssb.wiki.gallery/images/thumb/1/19/SSBU-Boxing_Ring_1.png/1200px-SSBU-Boxing_Ring_1.png)
+}
+#name{
+	background-color:#ff3333;
+}
+.others{
+	color:white;
+}
+.gif{
+	width:130;
+	height: 130;
+}
